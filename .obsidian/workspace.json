@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "96b898d9b9f36c84",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca76ef53a737df2c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3f9e3e2bf7a68c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "22e4304fc0883425",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3db45eec67adaab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16d5d4fd3f82b674",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fdb53d33c0ea518d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "662ab731bc547dc7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 355.5
+  },
+  "right": {
+    "id": "7fd0a1a703fe5523",
+    "type": "split",
+    "children": [
+      {
+        "id": "e395460832ceba86",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a01b357537907e0e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d556a3141a3a6207",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "40fa931a0ba97fea",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "05cbb33e1536347d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d3f9e3e2bf7a68c3",
+  "lastOpenFiles": [
+    "README.md",
+    "Content.md",
+    "Notes/Finding Exploits.md",
+    "Notes/Important/Useful Links.md",
+    "Notes/Important/Dictionary.md",
+    "Notes/Important/Useful Linux Commands.md",
+    "Notes/Important/Useful Windows Commands.md",
+    "Notes/Important/Shell and Shell Stablization.md",
+    "Notes/Important/Backdoor Crafting.md",
+    "Notes/Important/Virus Crafting.md",
+    "Notes/Important",
+    "Notes/Active Directory.md",
+    "Notes/Active Directory/Active Directory Lateral Movement and Persistence.md",
+    "Notes/Active Directory/Active Directory Lateral Movement & Persistence/Active Directory Persistence.md",
+    "Notes/Active Directory/Active Directory Lateral Movement & Persistence/Active Directory Lateral Movement.md",
+    "Notes/Active Directory/Active Directory Attacks.md",
+    "Notes/Active Directory/Active Directory Lateral Movement & Persistence",
+    "Notes/Active Directory/Active Directory Enumeration.md",
+    "Notes/Client Side Attack/Client Side Attack - Exploiting with WebDav Mount.md",
+    "Notes/Client Side Attack/Client Side Attack - Exploiting with VBA Macros.md",
+    "Notes/Web Application Pentesting/Content.md",
+    "Notes/Web Application Pentesting/Tools/Web Application Pentesting - Wordpress Enumeration.md",
+    "Notes/Web Application Pentesting/Tools/Web Application Pentesting - Web Technology.md",
+    "Notes/Web Application Pentesting/Tools/Web Application Pentesting - Gobuster.md",
+    "Notes/Web Application Pentesting/Tools/Web Application Pentesting - Burp Suite.md",
+    "Notes/Web Application Pentesting/SQLi Injection/SQLi Injection - Uploading PHP Backdoor from SQL.md",
+    "Notes/Web Application Pentesting/SQLi Injection/SQLi Injection - Union Based Attack.md",
+    "Notes/Web Application Pentesting/SQLi Injection/SQLi Injection - SQL-Map.md",
+    "Notes/Active Directory/Active Directory Attacks",
+    "Notes/Active Directory/Active Directory Enumeration",
+    "Notes/Active Directory",
+    "Notes/SSH, DNS, HTTP Tunneling/SSH Tunneling",
+    "Notes/SSH, DNS, HTTP Tunneling/SSH Tunneling/For Windows",
+    "Notes/SSH, DNS, HTTP Tunneling",
+    "Notes/Port Forwarding",
+    "Notes/Privilege Escalation/Linux Privilege Escalation"
+  ]
+}
