@@ -4,22 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "ca76ef53a737df2c",
+        "id": "6d84b6ec5d57b631",
         "type": "tabs",
         "children": [
           {
-            "id": "d3f9e3e2bf7a68c3",
+            "id": "79825e2f2e5d5873",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "CheatSheet/Kali Linux/Shells/Shell and Shell Stablization.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Shell and Shell Stablization"
+            }
+          },
+          {
+            "id": "11a4f7d8b61cd5e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quick Tips For Rooms.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Quick Tips For Rooms"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -38,8 +55,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -48,13 +68,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "invoke-web",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,14 +84,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 355.5
+    "width": 265.5
   },
   "right": {
     "id": "7fd0a1a703fe5523",
@@ -85,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "CheatSheet/Finding Exploits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +117,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Finding Exploits"
             }
           },
           {
@@ -102,10 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "CheatSheet/Finding Exploits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Finding Exploits"
             }
           },
           {
@@ -115,8 +143,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
-              }
+                "file": "CheatSheet/Finding Exploits.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Finding Exploits"
             }
           }
         ]
@@ -138,6 +175,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -146,43 +184,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d3f9e3e2bf7a68c3",
+  "active": "11a4f7d8b61cd5e3",
   "lastOpenFiles": [
-    "README.md",
-    "Content.md",
-    "Notes/Finding Exploits.md",
-    "Notes/Important/Useful Links.md",
-    "Notes/Important/Dictionary.md",
-    "Notes/Important/Useful Linux Commands.md",
-    "Notes/Important/Useful Windows Commands.md",
-    "Notes/Important/Shell and Shell Stablization.md",
-    "Notes/Important/Backdoor Crafting.md",
-    "Notes/Important/Virus Crafting.md",
-    "Notes/Important",
-    "Notes/Active Directory.md",
-    "Notes/Active Directory/Active Directory Lateral Movement and Persistence.md",
-    "Notes/Active Directory/Active Directory Lateral Movement & Persistence/Active Directory Persistence.md",
-    "Notes/Active Directory/Active Directory Lateral Movement & Persistence/Active Directory Lateral Movement.md",
-    "Notes/Active Directory/Active Directory Attacks.md",
-    "Notes/Active Directory/Active Directory Lateral Movement & Persistence",
-    "Notes/Active Directory/Active Directory Enumeration.md",
-    "Notes/Client Side Attack/Client Side Attack - Exploiting with WebDav Mount.md",
-    "Notes/Client Side Attack/Client Side Attack - Exploiting with VBA Macros.md",
-    "Notes/Web Application Pentesting/Content.md",
-    "Notes/Web Application Pentesting/Tools/Web Application Pentesting - Wordpress Enumeration.md",
-    "Notes/Web Application Pentesting/Tools/Web Application Pentesting - Web Technology.md",
-    "Notes/Web Application Pentesting/Tools/Web Application Pentesting - Gobuster.md",
-    "Notes/Web Application Pentesting/Tools/Web Application Pentesting - Burp Suite.md",
-    "Notes/Web Application Pentesting/SQLi Injection/SQLi Injection - Uploading PHP Backdoor from SQL.md",
-    "Notes/Web Application Pentesting/SQLi Injection/SQLi Injection - Union Based Attack.md",
-    "Notes/Web Application Pentesting/SQLi Injection/SQLi Injection - SQL-Map.md",
-    "Notes/Active Directory/Active Directory Attacks",
-    "Notes/Active Directory/Active Directory Enumeration",
-    "Notes/Active Directory",
-    "Notes/SSH, DNS, HTTP Tunneling/SSH Tunneling",
-    "Notes/SSH, DNS, HTTP Tunneling/SSH Tunneling/For Windows",
-    "Notes/SSH, DNS, HTTP Tunneling",
-    "Notes/Port Forwarding",
-    "Notes/Privilege Escalation/Linux Privilege Escalation"
+    "OSCP Essential!.md",
+    "IF STUCK!.md",
+    "CheatSheet/Active Directory/AD Lateral Movement.md",
+    "CheatSheet/Active Directory/AD Attacks.md",
+    "CheatSheet/Active Directory/AD Enum.md",
+    "CheatSheet/Active Directory/AD Quick Tips and Oneliners.md",
+    "CheatSheet/Windows Machines/Windows Exploiting.md",
+    "CheatSheet/Kali Linux/Misc Important/MsfVenom.md",
+    "CheatSheet/Kali Linux/Shells/Shell and Shell Stablization.md",
+    "CheatSheet/Active Directory/AD Misc.md",
+    "CheatSheet/Linux Machines/Privesc/Linux Privesc Enum.md",
+    "CheatSheet/Linux Machines/Privesc/Linux Privesc - Exploits.md",
+    "CheatSheet/Linux Machines/Privesc/Linux Privesc Exploiting.md",
+    "CheatSheet/Linux Machines/Important locations.md",
+    "CheatSheet/Linux Machines/SSH Attacks.md",
+    "CheatSheet/Linux Machines/Privesc",
+    "CheatSheet/Linux Machines/privesc/Linux PrivEsc Attacks/Linux Privesc - $PATH.md",
+    "CheatSheet/Linux Machines/privesc/Linux PrivEsc Attacks/Linux Privesc - CRON Jobs.md",
+    "CheatSheet/Linux Machines/privesc/Linux PrivEsc Attacks/Linux Privesc Automated tools.md",
+    "CheatSheet/Web Application Pentesting/Attacks/Local File Inclusion (LFI).md",
+    "CheatSheet/Kali Linux/Kali Linux Paths.md",
+    "CheatSheet/Web Application Pentesting/Attacks/XSS.md",
+    "CheatSheet/Windows Machines/RDP.md",
+    "CheatSheet/Active Directory/AD Starting rooms.md",
+    "CheatSheet/Web Application Pentesting/SQLi Injection/SQLi Injection - SQL-Map.md",
+    "CheatSheet/Kali Linux/Enumeration/Nmap.md",
+    "Quick Tips For Rooms.md",
+    "Image-attachments/Pasted image 20250508074333.png",
+    "Image-attachments/Pasted image 20250508074314.png",
+    "CheatSheet/Linux Machines/privesc",
+    "CheatSheet/Linux Machines/SSH Tunneling",
+    "CheatSheet/Kali Linux",
+    "CheatSheet/Windows Machines/Win PrivEsc",
+    "CheatSheet/Linux Machines",
+    "CheatSheet/Windows Machines",
+    "Image-attachments/Pasted image 20250423100317.png",
+    "Image-attachments/Pasted image 20250423095821.png",
+    "Image-attachments/Pasted image 20250423094654.png",
+    "Image-attachments/Pasted image 20250422172846.png",
+    "Image-attachments/Pasted image 20250422152033.png",
+    "CheatSheet/Kali Linux/Misc Important",
+    "Image-attachments/Pasted image 20250421075627.png",
+    "Image-attachments/Pasted image 20250421075608.png",
+    "Image-attachments/Pasted image 20250421075549.png",
+    "CheatSheet/Shells/Untitled",
+    "CheatSheet/Kali Linux/Shells"
   ]
 }
