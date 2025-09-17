@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CheatSheet/Kali Linux/Shells/Shell and Shell Stablization.md",
+                "file": "CheatSheet/Machines/Windows Machines/Proof.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Shell and Shell Stablization"
-            }
-          },
-          {
-            "id": "11a4f7d8b61cd5e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CheatSheet/Machines/Windows Machines/Win PrivEsc/MindMap and Links.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MindMap and Links"
+              "title": "Proof"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 516.5
   },
   "right": {
     "id": "7fd0a1a703fe5523",
@@ -184,53 +169,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "16d5d4fd3f82b674",
+  "active": "79825e2f2e5d5873",
   "lastOpenFiles": [
-    "CheatSheet/Machines/Linux Machines/Privesc/MindMap and Links.md",
-    "CheatSheet/Machines/Windows Machines/Win PrivEsc/MindMap and Links.md",
+    "CheatSheet/Machines/Linux Machines/Proof.md",
+    "CheatSheet/Machines/Windows Machines/Proof.md",
+    "CheatSheet/Web Application Pentesting/Web App Enumeration.md",
     "Image-attachments/Pasted image 20250917194305.png",
     "Image-attachments/Pasted image 20250917194233.png",
-    "Image-attachments/Pasted image 20250413092530.png",
+    "CheatSheet/Machines/Windows Machines/Win PrivEsc/MindMap and Links.md",
+    "CheatSheet/Machines/Linux Machines/Privesc/MindMap and Links.md",
+    "CheatSheet/Kali Linux/Shells/Shell and Shell Stablization.md",
+    "CheatSheet/Untitled.canvas",
+    "2025-09-17.md",
     "Quick Tips For Rooms.md",
     "Study plan.md",
-    "CheatSheet/Untitled.canvas",
-    "CheatSheet/Machines/Windows Machines/Win PrivEsc/Windows PrivEsc Quick Tips.md",
-    "CheatSheet/Machines/Windows Machines/Win PrivEsc/Important locations.md",
-    "CheatSheet/Machines/Linux Machines/Privesc/Linux Privesc Exploiting.md",
-    "CheatSheet/Machines/Linux Machines/Privesc/Linux Privesc Enum.md",
-    "CheatSheet/Machines/Windows Machines/Windows Exploiting.md",
-    "CheatSheet/Machines/Windows Machines/Win PrivEsc",
-    "CheatSheet/Machines/Windows Machines/RDP.md",
-    "CheatSheet/Machines/Linux Machines/Privesc",
-    "CheatSheet/Machines/Linux Machines/Important locations.md",
-    "CheatSheet/Machines/Active Directory/AD Lateral Movement.md",
-    "CheatSheet/Machines/Active Directory/AD Quick Tips and Oneliners.md",
-    "CheatSheet/Machines/Active Directory/AD Enum.md",
-    "CheatSheet/Machines/Active Directory/AD Attacks.md",
-    "CheatSheet/Machines/Windows Machines",
-    "CheatSheet/Machines/Linux Machines",
-    "CheatSheet/Machines/Active Directory",
-    "CheatSheet/Machines",
     "OSCP Essential!.md",
+    "CheatSheet/Kali Linux/Misc Important/Metasploit.md",
+    "CheatSheet/Kali Linux/Misc Important/Images - Steganograph.md",
+    "CheatSheet/Kali Linux/Misc Important/Decode.md",
+    "CheatSheet/Kali Linux/Enumeration/Nmap.md",
+    "CheatSheet/Kali Linux/Enumeration/Directories.md",
+    "CheatSheet/Machines/Linux Machines/Important locations.md",
+    "CheatSheet/Machines/Windows Machines/Windows Exploiting.md",
+    "CheatSheet/Machines/Windows Machines/RDP.md",
+    "CheatSheet/Machines/Windows Machines/Win PrivEsc/Important locations.md",
+    "CheatSheet/Machines/Windows Machines/Win PrivEsc/Windows PrivEsc Quick Tips.md",
+    "CheatSheet/Machines",
     "IF STUCK!.md",
-    "CheatSheet/Active Directory/AD Lateral Movement.md",
-    "CheatSheet/Active Directory/AD Attacks.md",
-    "CheatSheet/Active Directory/AD Enum.md",
-    "CheatSheet/Active Directory/AD Quick Tips and Oneliners.md",
-    "CheatSheet/Windows Machines/Windows Exploiting.md",
+    "CheatSheet/Machines/Active Directory/AD Lateral Movement.md",
+    "CheatSheet/Machines/Active Directory/AD Attacks.md",
+    "CheatSheet/Machines/Active Directory/AD Enum.md",
+    "CheatSheet/Machines/Active Directory/AD Quick Tips and Oneliners.md",
     "CheatSheet/Kali Linux/Misc Important/MsfVenom.md",
-    "CheatSheet/Kali Linux/Shells/Shell and Shell Stablization.md",
-    "CheatSheet/Active Directory/AD Misc.md",
-    "CheatSheet/Linux Machines/Privesc",
+    "CheatSheet/Machines/Linux Machines/Privesc",
     "Image-attachments/Pasted image 20250508074333.png",
     "Image-attachments/Pasted image 20250508074314.png",
     "CheatSheet/Linux Machines/privesc",
     "CheatSheet/Linux Machines/SSH Tunneling",
     "CheatSheet/Kali Linux",
+    "CheatSheet/Machines/Windows Machines/Win PrivEsc",
+    "CheatSheet/Machines/Linux Machines",
+    "CheatSheet/Machines/Windows Machines",
     "Image-attachments/Pasted image 20250423100317.png",
     "Image-attachments/Pasted image 20250423095821.png",
     "Image-attachments/Pasted image 20250423094654.png",
     "Image-attachments/Pasted image 20250422172846.png",
-    "Image-attachments/Pasted image 20250422152033.png"
+    "Image-attachments/Pasted image 20250422152033.png",
+    "CheatSheet/Kali Linux/Misc Important",
+    "Image-attachments/Pasted image 20250421075627.png",
+    "CheatSheet/Shells/Untitled"
   ]
 }
