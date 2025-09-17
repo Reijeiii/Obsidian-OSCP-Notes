@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quick Tips For Rooms.md",
+                "file": "CheatSheet/Machines/Windows Machines/Win PrivEsc/MindMap and Links.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quick Tips For Rooms"
+              "title": "MindMap and Links"
             }
           }
         ],
@@ -184,8 +184,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "11a4f7d8b61cd5e3",
+  "active": "16d5d4fd3f82b674",
   "lastOpenFiles": [
+    "CheatSheet/Machines/Linux Machines/Privesc/MindMap and Links.md",
+    "CheatSheet/Machines/Windows Machines/Win PrivEsc/MindMap and Links.md",
+    "Image-attachments/Pasted image 20250917194305.png",
+    "Image-attachments/Pasted image 20250917194233.png",
+    "Image-attachments/Pasted image 20250413092530.png",
+    "Quick Tips For Rooms.md",
     "Study plan.md",
     "CheatSheet/Untitled.canvas",
     "CheatSheet/Machines/Windows Machines/Win PrivEsc/Windows PrivEsc Quick Tips.md",
@@ -215,10 +221,6 @@
     "CheatSheet/Kali Linux/Misc Important/MsfVenom.md",
     "CheatSheet/Kali Linux/Shells/Shell and Shell Stablization.md",
     "CheatSheet/Active Directory/AD Misc.md",
-    "CheatSheet/Linux Machines/Privesc/Linux Privesc Enum.md",
-    "CheatSheet/Linux Machines/Privesc/Linux Privesc - Exploits.md",
-    "CheatSheet/Linux Machines/Privesc/Linux Privesc Exploiting.md",
-    "CheatSheet/Linux Machines/Important locations.md",
     "CheatSheet/Linux Machines/Privesc",
     "Image-attachments/Pasted image 20250508074333.png",
     "Image-attachments/Pasted image 20250508074314.png",
@@ -229,9 +231,6 @@
     "Image-attachments/Pasted image 20250423095821.png",
     "Image-attachments/Pasted image 20250423094654.png",
     "Image-attachments/Pasted image 20250422172846.png",
-    "Image-attachments/Pasted image 20250422152033.png",
-    "Image-attachments/Pasted image 20250421075627.png",
-    "Image-attachments/Pasted image 20250421075608.png",
-    "Image-attachments/Pasted image 20250421075549.png"
+    "Image-attachments/Pasted image 20250422152033.png"
   ]
 }
