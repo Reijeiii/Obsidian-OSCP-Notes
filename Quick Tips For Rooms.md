@@ -6,12 +6,17 @@ export LHOST="<local_ip>";
 export RHOST="<TARGET_IP>";
 ```
 ### Enumeration:
-Start with autorecon to scan for Open ports and known vulnerabilities
 ``` bash
+#autorecon runs all scans for all ports and vulnerabilities. Very heavy
 sudo autorecon <TARGET_IP>
-```
-or with basic nmap
-``` bash
+
+#NmapAutomator. 
+nmapautomator.sh <TARGET_IP> --type port #shows open ports
+nmapautomator.sh <TARGET_IP> --type recon #runs basic recon
+nmapautomator.sh <TARGET_IP> --type script #runs script scan
+nmapautomator.sh <TARGET_IP> --type vulns #runs vuln scan
+
+#Basic nmap
 sudo nmap -T4 -sC -sV -p- $IP --open -oN nmap-tcp.txt -v
 ```
 

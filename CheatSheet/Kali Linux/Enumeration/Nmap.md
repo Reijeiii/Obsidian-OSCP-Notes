@@ -11,7 +11,7 @@ sudo nmap -T4 -sC -sV -p- $IP --open -oN nmap-tcp.txt -v
 
 #### Nmap Scan (Quick)
 ```
-nmap -sC -sV 10.10.10.10
+nmap -sC -sV <IP>
 ```
 
 ### Identify running services and check for know vulnerabilities:
