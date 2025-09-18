@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CheatSheet/Machines/Windows Machines/Reverse shell.md",
+                "file": "CheatSheet/Machines/Active Directory/AD Attacks - OLD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reverse shell"
+              "title": "AD Attacks - OLD"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "invoke-web",
+                "query": "powerup",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 363.5
   },
   "right": {
     "id": "7fd0a1a703fe5523",
@@ -186,8 +186,15 @@
   },
   "active": "11a4f7d8b61cd5e3",
   "lastOpenFiles": [
-    "CheatSheet/Kali Linux/Shells/Shell and Shell Stablization.md",
+    "CheatSheet/Machines/Active Directory/Kerbroasting.md",
+    "CheatSheet/Machines/Active Directory/AD Tips and Oneliners.md",
+    "CheatSheet/Machines/Active Directory/AD Attacks - OLD.md",
+    "CheatSheet/Machines/Active Directory/AD Lateral Movement - OLD.md",
+    "CheatSheet/Machines/Active Directory/AD Enum - OLD.md",
+    "CheatSheet/Machines/Pentest MindMap.md",
+    "CHECK LATER.md",
     "CheatSheet/Machines/Windows Machines/Reverse shell.md",
+    "CheatSheet/Kali Linux/Shells/Shell and Shell Stablization.md",
     "CheatSheet/Machines/Windows Machines/Win PrivEsc/Untitled.md",
     "CheatSheet/Machines/Windows Machines/Win PrivEsc/Windows PrivEsc Enum.md",
     "CheatSheet/Machines/Windows Machines/RDP.md",
@@ -199,7 +206,6 @@
     "IF STUCK!.md",
     "CheatSheet/Machines/Linux Machines/Privesc/MindMap and Links.md",
     "CheatSheet/Machines/Windows Machines/Proof.md",
-    "CheatSheet/Machines/Pentest MindMap.md",
     "CheatSheet/Machines/Linux Machines/Proof.md",
     "CheatSheet/Machines/Linux Machines/Important locations.md",
     "CheatSheet/Machines/Windows Machines/Win PrivEsc/MindMap and Links.md",
@@ -211,17 +217,11 @@
     "CheatSheet/Untitled.canvas",
     "CheatSheet/Machines/Windows Machines/Win PrivEsc",
     "CheatSheet/Machines/Linux Machines/Privesc",
-    "CheatSheet/Machines/Active Directory/AD Lateral Movement.md",
-    "CheatSheet/Machines/Active Directory/AD Quick Tips and Oneliners.md",
-    "CheatSheet/Machines/Active Directory/AD Enum.md",
-    "CheatSheet/Machines/Active Directory/AD Attacks.md",
     "CheatSheet/Machines/Windows Machines",
     "CheatSheet/Machines/Linux Machines",
     "CheatSheet/Machines/Active Directory",
     "CheatSheet/Machines",
     "OSCP Essential!.md",
-    "CheatSheet/Active Directory/AD Lateral Movement.md",
-    "CheatSheet/Active Directory/AD Attacks.md",
     "CheatSheet/Linux Machines/Privesc",
     "Image-attachments/Pasted image 20250508074333.png",
     "Image-attachments/Pasted image 20250508074314.png",

